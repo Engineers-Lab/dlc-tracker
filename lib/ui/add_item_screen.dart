@@ -55,7 +55,7 @@ class _AddItemScreenState extends State<AddItemScreen> {
                   const SizedBox(
                     height: 16,
                   ),
-                  ElevatedButton(onPressed: (){}, child: Text('Enregistrer'))
+                  ElevatedButton(onPressed: (){}, child: const Text('Enregistrer'))
                 ],
               )
             ],
