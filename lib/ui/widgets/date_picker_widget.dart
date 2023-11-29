@@ -11,7 +11,7 @@ class DatePickerWidget extends StatefulWidget {
 class _DatePickerWidgetState extends State<DatePickerWidget> {
   late DateTime _selectedDate;
 
-  TextEditingController _textEditingController = TextEditingController();
+  final TextEditingController _textEditingController = TextEditingController();
 
   _selectDate(BuildContext context) async {
     final DateTime? picked = await showDatePicker(

@@ -1,9 +1,9 @@
 class ItemDataModel {
 
-  int gencode;
+  int itemCode;
   String designation;
-  DateTime expiryDate;
+  String rayon;
 
-  ItemDataModel({required this.gencode, required this.designation, required this.expiryDate});
+  ItemDataModel({required this.itemCode, required this.designation, required this.rayon});
 
 }
